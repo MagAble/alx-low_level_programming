@@ -28,7 +28,7 @@ int main(void)
 	  c = j / 10; /*doubles snum*/
 	  d = j % 10; /*singles snum*/
 
-	  if (a < c || (a == c && b < d)
+	  if (a < c || (a == c && b < d))
 	    {
 	      putchar(a + '0');
 	      putchar(b + '0');
@@ -42,10 +42,10 @@ int main(void)
 		  putchar(32);
 		}
 	    }
-	    }
 	}
+    }
       putchar(10);
 
       return (0);
-    }
-  
+}
+ 
