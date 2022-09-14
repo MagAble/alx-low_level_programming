@@ -4,7 +4,7 @@
  *jack_bauer - prints every minute of the day
  */
 
-void jackbauer(void)
+void jack_bauer(void)
 {
   int minutes = 0;
   int seconds;
